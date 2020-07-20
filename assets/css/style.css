@@ -136,6 +136,15 @@ ul.menu li a:hover {
 	background-color: #f9f9f9;
 }
 
+.sidebar .rating_sidebar {
+	float: right;
+  }
+
+.sidebar ul li {
+	list-style-type: none;
+	margin: 0 0 0 0;
+} 
+
 .btn {
 	padding: 8px;
 	background-color: white;
@@ -275,6 +284,29 @@ ul.menu li a:hover {
 }
 .button a {
 	color: white;
+}
+
+table {
+	width: 100%;
+	border: solid 1px #e41818;
+}
+td {
+	padding: 2%;
+	border: solid 1px #202046;
+}
+td img {
+	width: 60px;
+	vertical-align: middle;
+}
+
+.center {
+	text-align: center;
+}
+.left {
+	text-align: left;
+}
+.rating {
+	font-weight: bold;
 }
 
 .footer {
