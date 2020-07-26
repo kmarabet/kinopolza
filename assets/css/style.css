@@ -194,7 +194,7 @@ hr {
 	width: 22%;
 }
 
-.posts .posts_contents {
+.posts .posts_content {
 	fonts-size: 0.8em;
 }
 
@@ -372,6 +372,12 @@ and (max-device-width : 568px) {
 		width: 100%;
 		height: 100%;
 	}
+	
+	.content {
+		width: 100%;
+		text-align: center;
+	}
+
 	.sidebar_container {
 		display: none;
 	}
@@ -396,5 +402,37 @@ and (max-device-width : 568px) {
 		font: normal 100% 'century gothic', arial, sans-serif;
 		color: white;
 	}	
+
+	.content h1, h2 {
+		font: normal 110% 'century gothic', arial;	
+	}
+
+	.films_block img {
+		width: 43%;
+	}
+
+	.posts_content p {
+		line-height: 1.5em;
+		/* font-size: 208%; */
+		padding: 3%;
+		text-align: left;
+	}
+	.posts p {
+		font-size: 120%;
+	}
+
+	/* films page */
+	.info_film {
+		float: none;
+		height: 100%;		
+	}
+	.info_film img {
+		width: 90%;
+		margin-bottom: 5%;
+	}
+
+	.info_film .button {
+		float: none;
+	}
 	
 }
